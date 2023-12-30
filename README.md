@@ -10,7 +10,7 @@ First of all we will divide all the requirements into sections to make it easier
 7) The footer is also an essential part.
 
 
-#Key components 
+# Key components 
 . We will set the font size to 62.5% so that 1 rem = 10px.
 . On hovering the meal card we'll use => transform: translateY(-1.2rem) with a shadow;
 . To make the images zoom within the div =>  transform: scale(1.1) and also apply transition;
