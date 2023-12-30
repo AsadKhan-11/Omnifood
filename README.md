@@ -11,10 +11,10 @@ First of all we will divide all the requirements into sections to make it easier
 
 
 # Key components 
-. We will set the font size to 62.5% so that 1 rem = 10px.
-. On hovering the meal card we'll use => transform: translateY(-1.2rem) with a shadow;
-. To make the images zoom within the div =>  transform: scale(1.1) and also apply transition;
-. To apply the gradient int the form => background-image: linear-gradient(
+1) We will set the font size to 62.5% so that 1 rem = 10px.
+2) On hovering the meal card we'll use => transform: translateY(-1.2rem) with a shadow;
+3) To make the images zoom within the div =>  transform: scale(1.1) and also apply transition;
+4) To apply the gradient int the form => background-image: linear-gradient(
       to right bottom,
       rgba(235, 151, 78, 0.35),
       rgba(231, 125, 34, 0.356)
