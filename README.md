@@ -20,4 +20,6 @@ First of all we will divide all the requirements into sections to make it easier
       rgba(231, 125, 34, 0.356)
     )
     
+![Screenshot 2024-01-14 223605](https://github.com/AsadKhan-11/Omnifood/assets/150323120/ffe26b49-7c3f-4f83-a2b1-0de207467611)
+
 
