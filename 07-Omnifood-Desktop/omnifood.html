@@ -27,11 +27,11 @@
       <a href="#" ><img  class="head-logo" src="omnifood-logo.png" alt="logo" /></a>
       <nav class="head-nav">
         <ul class="head-nav-list">
-          <li><a href="#" class="head-nav-link">Section1</a></li>
-          <li><a href="#" class="head-nav-link">Section2</a></li>
-          <li><a href="#" class="head-nav-link">Section3</a></li>
-            <li><a href="#" class="head-nav-link">Section4</a></li>
-            <li><a href="#" class="head-nav-link last-link">Section5</a></li>
+          <li><a href="#works" class="head-nav-link">How it works</a></li>
+          <li><a href="#meals" class="head-nav-link">Meals</a></li>
+          <li><a href="#testimonials" class="head-nav-link">Testimonials</a></li>
+            <li><a href="#pricing" class="head-nav-link">Pricing</a></li>
+            <li><a href="#sign-up" class="head-nav-link last-link">Sign up</a></li>
           </ul>
         </nav>
       </header>
@@ -87,7 +87,7 @@
         </div>
       </section>
 
-      <section class="sec-how">
+      <section class="sec-how" id="works">
         <div class="container">
           <span class="subheading">How it works</span>
           <h2 class="head-sec">Your daily dose of health in 3 simple steps</h2>
@@ -146,7 +146,7 @@
         </div>
       </section>
 
-      <section class="sec-meals">
+      <section class="sec-meals" id="meals">
         <div class="container center-txt">
           <span class="subheading">Meals</span>
           <h2 class="head-sec">Omnifood AI chooses from 5,000+ recipes</h2>
@@ -323,7 +323,7 @@
           <a href="#" class="link">See all recipes &rarr;</a>
         </div>
       </section>
-      <section class="sec-testimonials">
+      <section class="sec-testimonials" id="testimonials">
         <div class="testimonial-container">
           <span class="subheading">Testimonials</span>
           <h2 class="head-sec">Once you try it you can't go back</h2>
@@ -411,7 +411,7 @@
           </figure>
         </div>
       </section>
-      <section class="sec-pricing">
+      <section class="sec-pricing" id="pricing">
         <div class="container">
           <span class="subheading">Pricing</span>
           <h3 class="head-sec">Eating well without breaking the bank</h3>
@@ -508,23 +508,23 @@
         </div>
       </section>
     
-      <section class="sec-cta">
+      <section class="sec-cta" id="sign-up">
         <div class="container">
           <div class="cta">
         <div class="cta-txt-box">
           <h2 class="head-sec" >Get your first meal for free!</h2>
           <p class="cta-txt">Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!</p>
         
-          <form class="cta-form" action="#">
+          <form class="cta-form" action="D:>\xampp\htdocs\php\table.php" method="POST" >
             <div class="cta-form-grid">
             <label for="cta-name">Full Name</label> 
-            <input id="cta-name" type="name" placeholder="Name" required/>
+            <input id="cta-name" type="name" placeholder="Name" name="name" required/>
           </div>
           <div class="cta-form-grid">
 
-          <label for="cta-email">Email</label> 
+          <label for="cta-email"  >Email</label> 
 
-            <input id="cta-email" type="email" required placeholder="me@example.com"/> 
+            <input id="cta-email" type="email" name="email" required placeholder="me@example.com"/> 
           </div>
             <div class="cta-form-grid">
 
